@@ -33,7 +33,7 @@ public class Assign {
 			String ch1;
 			int choice;
 			do{
-				System.out.println("Enter the choice: \n1. To Insert \n2. To Update \n3. To Delete \n4. To Print \n5. Exit");
+				System.out.println("Enter the choice: \n1. To Insert \t2. To Update \n3. To Delete \t4. To Print \n5. Exit");
 				choice = sc.nextInt();
 				switch(choice){
 				case 1:{
@@ -53,7 +53,7 @@ public class Assign {
 					}//end case 1
 				
 				case 2:{
-					System.out.println("Choose what to update \n1. EMP NO \n2. ENAME \n3. ADDRESS");
+					System.out.println("Choose what to update \n1. EMP NO \t2. ENAME \n3. ADDRESS");
 					int c2=sc.nextInt();
 					switch(c2){
 					case 1:
@@ -108,7 +108,7 @@ public class Assign {
 				
 				case 4:{
 					ResultSet rs;
-					System.out.println("Enter what to print \n1. All \n2. Ename \n3. EMPNO \n4. ADDRESS \n");
+					System.out.println("Enter what to print \n1. All     \t2. Ename \n3. EMPNO \t4. ADDRESS \n");
 					int chh=sc.nextInt();
 					switch(chh){
 					case 1:
